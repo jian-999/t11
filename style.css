@@ -1,0 +1,31 @@
+@charset"UTF-8";
+body{background-color: lightskyblue;}
+body>section>h3{color:blueviolet;}
+body>section>h4{color: brown;}
+@media screen and (max-width:800px){
+    body{width: 95%;background-color: lightskyblue;}
+    }
+    
+    @media screen and (max-width:600px){
+        
+    }
+    
+    @media screen and (min-width:601px)
+                  and (max-width:800px){
+    
+    }
+    
+    @media screen and (min-width:801px){
+        body{width: 55%;background-color: lightskyblue;text-align: left;margin: 0 auto;}
+    }
+    
+    
+    @media screen and (min-width:801px)
+                  and (max-width:1280px){
+                  
+    
+    }
+    
+    @media screen and (min-width:1281px){
+    
+    }
